@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import './Projects.css';
 
-export default function Projects(){
+export default function Projects() {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const projectItems = [
     {
       category: 'Web App',
-      img: 'netflix clone.png',
-      title: "Netflix Clone",
+      img: 'e commerce.png',
+      title: 'E-Commerce Platform',
       client: 'Self Project',
-      description: 'A visually appealing and fully responsive Netflix-like web app with advanced features: JWT-based authentication, movie & TV show fetching, actor search, trailer viewing, similar content suggestions, and history tracking. Built using React, Tailwind CSS, Zustand, React Toast, React Router, and Express with MongoDB on the backend. Packed with smooth UI and dynamic functionality.',
-      link: 'https://netflix-clone-1mte.onrender.com',
-      tech: 'React, Node, Express, MongoDB, Tailwind CSS',
+      description: 'A fully functional and secure e-commerce web application built using the MERN stack. Features include JWT-based authentication with role-based access (User/Admin), protected routes, email verification with OTP, and password recovery via Resend API. Integrated Stripe for online payments, Cloudinary for image uploads, and implemented key modules like product catalog, shopping cart, order history, and address management. The UI is responsive and styled with Tailwind CSS, while RESTful APIs were designed using Express.js and tested with Postman.',
+      link: 'https://needyou-orpin.vercel.app',
+      tech: 'React, Node, Express, MongoDB, Redux Toolkit, Tailwind CSS',
     },
     {
       category: 'Web App',

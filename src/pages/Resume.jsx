@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Resume(){
+export default function Resume() {
   const [showModal, setShowModal] = useState(false);
 
   const openResume = () => setShowModal(true);
@@ -79,7 +79,7 @@ export default function Resume(){
               &times;
             </button>
             <iframe
-              src="https://drive.google.com/file/d/13XKqsFfVpBcJhST9oA3rhwPVx3rBR7Fl/preview"
+              src="https://drive.google.com/file/d/1KhMX_M3oDovmdDCz4yRpqdTnqNrivvIY/preview"
               width="100%"
               height="100%"
               allow="autoplay"
@@ -144,11 +144,43 @@ export default function Resume(){
               <h4>Database:</h4>
               <h5>SQL</h5>
             </div>
+
+            <h3 className="resume-title">Soft Skills</h3>
+            <div className="resume-item"><h4>Public Speaking</h4></div>
+            <div className="resume-item"><h4>Time Management</h4></div>
+            <div className="resume-item"><h4>Problem Solving</h4></div>
+            <div className="resume-item"><h4>Creativity</h4></div>
+            <div className="resume-item"><h4>Flexibility</h4></div>
+
           </div>
 
           {/* Right Column */}
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 className="resume-title">Projects</h3>
+
+            <div className="resume-item">
+              <h4>E-Commerce Web Application</h4>
+              <ul>
+                <li>
+                  Developed a full-stack e-commerce platform using MERN Stack, Redux Toolkit, Tailwind CSS, and React Router.
+                </li>
+                <li>
+                  Integrated JWT-based authentication with role-based access (User/Admin) and protected routes.
+                </li>
+                <li>
+                  Added email verification and password recovery features using Resend API and OTP system.
+                </li>
+                <li>
+                  Enabled Stripe integration for secure online payments and Cloudinary for image uploads.
+                </li>
+                <li>
+                  Implemented key modules including product catalog, cart, order history, and address management.
+                </li>
+                <li>
+                  Built RESTful APIs with Express.js and tested extensively using Postman.
+                </li>
+              </ul>
+            </div>
 
             <div className="resume-item">
               <h4>Trip Guide Webpage</h4>
@@ -189,13 +221,6 @@ export default function Resume(){
                 </li>
               </ul>
             </div>
-
-            <h3 className="resume-title">Soft Skills</h3>
-            <div className="resume-item"><h4>Public Speaking</h4></div>
-            <div className="resume-item"><h4>Time Management</h4></div>
-            <div className="resume-item"><h4>Problem Solving</h4></div>
-            <div className="resume-item"><h4>Creativity</h4></div>
-            <div className="resume-item"><h4>Flexibility</h4></div>
 
             <h3 className="resume-title">Online Presence</h3>
             <div className="resume-item">
